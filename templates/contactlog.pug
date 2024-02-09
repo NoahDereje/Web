@@ -1,0 +1,38 @@
+doctype html
+html(lang="en")
+  head
+    title Contact Log
+    link#pageMode(rel='stylesheet' href='/css/main.css' type='text/css')
+    script(defer src='/js/main.js')
+    script(defer src='/js/table.js')
+
+  body
+    include navbar.pug
+    main
+      #sale-management
+        input#sale-message-input(type='text' placeholder='Enter sale message')
+        button(onclick='setSale()') Set
+        button(onclick='deleteSale()') Delete
+      h1 Contact Log
+      table
+        thead
+          tr
+            th Name
+            th Email
+            th Date
+            th Time Remaining
+            th Appointment Type
+            th Newsletter Subscription
+            th Actions
+        tbody
+          each contact, index in contacts
+            tr(id=`row-${contact.id}`)
+              td= contact.name
+              td
+                a(href=`mailto:${contact.email}`)= contact.email
+              td(data-date=contact.date)= contact.date
+              td Time Remaining 
+              td= contact.dropdown
+              td= contact.checkbox === 'on' ? 'On' : 'Off'
+              td
+                button.delete-button(data-row-id=`row-${contact.id}`) delete me if you dare

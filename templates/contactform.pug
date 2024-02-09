@@ -1,0 +1,33 @@
+doctype html
+head
+  meta(charset='utf-8')
+  meta(content='width=device-width, initial-scale=1.0' name='viewport')
+  script(src='/js/main.js')
+  script(src='/js/contact.js' defer='')
+  title Contact Us!
+  link#pageMode(href='/main.css' rel='stylesheet' type='text/css')
+include navbar.pug
+main
+  h1 Contact Us!
+  form(action='/contact' method='post')
+    label(for='name') Name:
+    input#name(name='name' required='' type='text')
+    br
+    label(for='email') Email:
+    input#email(name='email' required='' type='email')
+    br
+    label(for='date') Appointment Date:
+    input#date(name='date' type='date')
+    br
+    label(for='dropdown') Select Option:
+    select#dropdown(name='dropdown')
+      option(value='Phone') Phone call
+      option(value='Walk-in') Walk-In
+      option(value='Online') Online Appointment
+    br
+    span#calculationResult That will cost $5.00
+    br
+    label(for='checkbox') Subscribe to Newsletter for 15% off Candles!:
+    input#checkbox(name='checkbox' type='checkbox')
+    br
+    input(type='submit' value='Submit')

@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
+body, h1, h2, h3, form, ul, ol, p ,li, select, input {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;  
+    color: #ffffff;  
+}
+
+iframe {  
+    width:75vw;
+    max-width: 75%;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 1em;
+}
+
+.text-box {
+    background-color: #2c2c2c;  
+    width: 50vw; 
+    margin: 20px auto; 
+    padding: 40px 20px;  
+    text-align: center;  
+}
+
+div.text-box ol {
+    text-align: left;
+    margin-top: 50px;  
+    left: 100px; 
+}
+
+/* Navigation Bar Style */
+
+nav {
+    background-color: #333333;  
+    padding: 0.5em 1em;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    display: flex;  
+    justify-content: center;  
+    align-items: center;
+}
+
+.motto {
+    font-size: 1em;  
+    font-style: italic;  
+    text-align: center;  
+    margin: 0.5em 0;  
+}
+
+nav ul {
+    list-style-type: none; 
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    padding: 0;  
+    margin: 0; 
+}
+
+nav li {
+    margin-right: 1.2em;  
+}
+
+nav a {
+    color: #ffffff;  
+    text-decoration: none;
+    padding: 0.3em 0.8em;  
+    border-radius: 4px;  
+}
+
+nav a:hover {
+    background-color: #555555;  
+}
+
+/* Main Styles */
+
+main {
+    margin-top: 3em;
+    padding: 2em;
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2.5em;
+    color: #ffbb86;  
+    text-align: center; 
+}
+
+h2 {
+    font-size: 2em;
+    color: #ffbb86;  
+}
+
+h3 {
+    text-align: center;
+    color: #ffbb86;  
+}
+
+strong {
+    color: #ffb74d;  
+}
+
+em {
+    color: #ff8a65;  
+}
+
+p {
+    margin-bottom: 1em;
+    line-height: 1.6em;
+}
+
+img { 
+    width: 50vw;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+
+ol, ul {
+    margin-bottom: 1em;
+    padding-left: 1.5em;
+}
+
+li {
+    margin-bottom: 0.5em;
+}
+
+/* Testimonials Page */
+
+.review {
+    border: 1px solid #ffffff;  
+    border-radius: 10px;
+    flex: 0 0 calc(50% - 20px);  
+    padding: 10px; 
+    box-sizing: border-box;  
+}
+
+.reviewer-name {
+    text-align: right;
+    font-weight: bold;
+    width: 100%;
+    color: #ffffff;  
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: space-between;  
+}
+
+/* Contact Log Page */
+
+table {
+    width: 80%;
+    margin: 4em auto;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+table th, table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ffffff;  
+}
+
+table th {
+    background-color: #333333;  
+    color: #ffffff;  
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: #2c2c2c;  
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #1f1f1f;  
+}
+
+/* Contact Us Page */
+
+form {
+    background-color: #2c2c2c;  
+    padding: 2rem; 
+    max-width: 800px; 
+    margin: 2rem auto;
+}
+
+form label, form input, form select {
+    width: 100%;
+    margin-bottom: 0.5rem;
+    color: #ffffff;  
+}
+
+form input[type="submit"] {
+    background-color: #333333;  
+    color: #ffffff;  
+    border: none;
+    padding: 12px 24px; 
+}
+
+form input[type="submit"]:hover {
+    background-color: #444444;  
+}
+
+#sale-management {
+    display: flex;
+    gap: 10px;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+#sale-management input[type="text"] {
+    padding: 0.5em;
+    border: 1px solid #d2691e;
+    border-radius: 4px;
+    width: 300px; 
+}
+
+#sale-management button {
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 4px;
+    background-color: #d2691e;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#sale-management button:hover {
+    background-color: #b3591b;
+}
+
+#sales-banner {
+    background-color: #ffbb86;
+    color: #121212; 
+    text-align: center; 
+    padding: 1em; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    border-radius: 5px; 
+    margin: 1em auto; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); 
+    width: 40%; 
+}
+
+#sales-message {
+    font-size: 1.2em; 
+    font-weight: bold; 
+    margin: 0; 
+}
+
+
+nav button#themeToggleBtn {
+    background-color: #333333; 
+    color: #ffbb86; 
+    border: none; 
+    padding: 0.3em 0.8em; 
+    border-radius: 4px; 
+    font-family: inherit; 
+    font-size: 1em; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+nav button#themeToggleBtn:hover {
+    background-color: #555555; 
+}
+
+
