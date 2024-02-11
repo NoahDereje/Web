@@ -8,8 +8,8 @@ body, h1, h2, h3,form, ul, ol, p ,li, select, input {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #ffeedd;
-    color: #6b4226;
+    background-color: #E7ECEF;
+    color: #8B8C89;
 }
 
 iframe {
@@ -22,11 +22,15 @@ iframe {
 }
 
 .text-box {
-    background-color: #ffffff;
+    border-radius: 25px;
+    background-color: #1f4979;
+    color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     width: 50vw;
     margin: 20px auto;
     padding: 40px 20px;
     text-align: center;
+    
 }
 
 div.text-box ol {
@@ -38,7 +42,7 @@ div.text-box ol {
 /* Navigation Bar Style */
 
 nav {
-    background-color: #8d5524;
+    background-color: #1f4979;
     padding: 0.5em 1em;
     position: fixed;
     width: 100%;
@@ -91,7 +95,8 @@ main {
 h1 {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 2.5em;
-    color: #d2691e;
+    color: #8B8C89;
+    text-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
 }
 
@@ -104,11 +109,11 @@ h3 {
 }
 
 strong {
-    color: #f79009;
+    color: #ffffff;
 }
 
 em {
-    color: #ff6f00a6;
+    color: #ffffffa6;
 }
 
 p {
@@ -135,7 +140,7 @@ li {
 /* Testimonials Page */
 
 .review {
-    border: 1px solid #6b4226;
+    border: 1px solid #705050;
     border-radius: 10px;
     flex: 0 0 calc(50% - 20px);
     padding: 10px;
@@ -260,8 +265,8 @@ form input[type="submit"]:hover {
 }
 
 nav button#themeToggleBtn {
-    background-color: #8d5524; 
-    color: #ffeedd; 
+    background-color: #37577c; 
+    color: #ffffff; 
     border: none; 
     padding: 0.3em 0.8em; 
     border-radius: 4px; 
