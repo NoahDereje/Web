@@ -73,4 +73,5 @@ document.addEventListener('DOMContentLoaded', function() {
         document.getElementById("pageMode").setAttribute("href", "/css/main.css");
     }
     document.getElementById('themeToggleBtn').addEventListener('click', toggle_style);
+
 });

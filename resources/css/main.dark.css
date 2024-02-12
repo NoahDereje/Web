@@ -21,7 +21,8 @@ iframe {
 }
 
 .text-box {
-    background-color: #2c2c2c;  
+    border-radius: 25px;
+    background-color: #2c2c2c; 
     width: 50vw; 
     margin: 20px auto; 
     padding: 40px 20px;  
@@ -89,26 +90,26 @@ main {
 h1 {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 2.5em;
-    color: #ffbb86;  
+    color: #ffffff;  
     text-align: center; 
 }
 
 h2 {
     font-size: 2em;
-    color: #ffbb86;  
+    color: #ffffff;  
 }
 
 h3 {
     text-align: center;
-    color: #ffbb86;  
+    color: #ffffff;  
 }
 
 strong {
-    color: #ffb74d;  
+    color: #ffffff;  
 }
 
 em {
-    color: #ff8a65;  
+    color: #ffffff;  
 }
 
 p {
@@ -218,7 +219,7 @@ form input[type="submit"]:hover {
 
 #sale-management input[type="text"] {
     padding: 0.5em;
-    border: 1px solid #d2691e;
+    border: 1px solid #ffffff;
     border-radius: 4px;
     width: 300px; 
 }
@@ -227,18 +228,18 @@ form input[type="submit"]:hover {
     padding: 0.5em 1em;
     border: none;
     border-radius: 4px;
-    background-color: #d2691e;
+    background-color: #ffffff;
     color: white;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 #sale-management button:hover {
-    background-color: #b3591b;
+    background-color: #ffffff;
 }
 
 #sales-banner {
-    background-color: #ffbb86;
+    background-color: #ffffff;
     color: #121212; 
     text-align: center; 
     padding: 1em; 
@@ -260,7 +261,7 @@ form input[type="submit"]:hover {
 
 nav button#themeToggleBtn {
     background-color: #333333; 
-    color: #ffbb86; 
+    color: #ffffff; 
     border: none; 
     padding: 0.3em 0.8em; 
     border-radius: 4px; 

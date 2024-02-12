@@ -23,7 +23,7 @@ iframe {
 
 .text-box {
     border-radius: 25px;
-    background-color: #1f4979;
+    background-color: #323232;
     color: #ffffff;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     width: 50vw;
@@ -42,7 +42,7 @@ div.text-box ol {
 /* Navigation Bar Style */
 
 nav {
-    background-color: #1f4979;
+    background-color: #323232;
     padding: 0.5em 1em;
     position: fixed;
     width: 100%;
@@ -81,7 +81,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #d9bf77;
+    background-color: #ffffff72;
 }
 
 
@@ -265,8 +265,8 @@ form input[type="submit"]:hover {
 }
 
 nav button#themeToggleBtn {
-    background-color: #37577c; 
-    color: #ffffff; 
+    background-color: #c1c2c2; 
+    color: #464646; 
     border: none; 
     padding: 0.3em 0.8em; 
     border-radius: 4px; 
@@ -277,7 +277,7 @@ nav button#themeToggleBtn {
 }
 
 nav button#themeToggleBtn:hover {
-    background-color: #d9bf77; 
+    background-color: #000000; 
 }
 
 
